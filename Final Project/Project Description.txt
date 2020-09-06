@@ -1,0 +1,20 @@
+Project Description
+
+Use the CSV files in the folder called restaurant-data-with-consumer-ratings.
+
+Look at the data and come up with a set of Functional Dependencies. 
+Create a new schema, using these functional dependencies, ensuring that your schema is in 3NF.
+
+Now, answer the following questions using one or more SQL queries. You should submit your SQL queries along with the first 10 rows of each result.
+
+(a) Based on the statistics, which cuisine will a person who is interested in technology most likely to choose? Describe your ranking criteria.
+(b) Based on the data provided, which cuisine is most popular (they serve people with very different characteristics), which is most exclusive (they serve people with very similar characteristics)?
+(c) Based on the customer information provided, list 3 ranked choices of restaurant for two customers below. customerOrdering	timePreferred	Cuisine		Preference			Time allowance
+U1004				Mon 18:00		Mexican		Price > rating		Fast
+U1124				Sat 22:00		FastFood	Rating > Price		Whatever
+(d) Find the top 10 people who give the most # of rating and find all the information about these people and their rating diversity (e.g., how "evenly" do they rate restaurants?).
+(e) Suppose you are a rich investor with 200 million dollars to invest, what type of restaurant will you invest and where, why? This is a data science question and your answer should be based on queries you have come up with to make your decision evidence-based. 
+The criteria could be like:
+ (i) I want to build a restaurant in cities that don’t have many restaurants currently, but they are perspective (their restaurants receive higher ratings and suppose there are no geographic bias in rating)
+ (ii) I want to invest in “little pizza”and make it franchise because I think franchising can increase sales and pizza restaurants seem to be very popular in that city.
+  (iii)...... (come up with your own!!)
